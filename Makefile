@@ -1,3 +1,2 @@
 all:
-	g++ -g main.cpp -o program.exe -Isrc/include -Lsrc/lib -lSDL3
-
+	g++ src/main.cpp -o program.exe -Iinclude -Llib -lglfw3dll -static
